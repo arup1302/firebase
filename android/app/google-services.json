@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573544628334",
+    "project_id": "alertcreation-912",
+    "storage_bucket": "alertcreation-912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573544628334:android:a5ce65cddd3bd39364a67f",
+        "android_client_info": {
+          "package_name": "com.alert_creation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573544628334-eqs92lq5bcgvp0j1jtca6p59c3qiikk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9A80RiGjKjdgdEVzwgELr7Hw2hD56zFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573544628334-eqs92lq5bcgvp0j1jtca6p59c3qiikk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
