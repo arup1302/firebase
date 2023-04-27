@@ -8,6 +8,7 @@
 import React, { useEffect } from 'react';
 import type { PropsWithChildren } from 'react';
 import messaging from "@react-native-firebase/messaging";
+import { Amplify,Notifications  } from 'aws-amplify';
 import {
   
   StyleSheet,
@@ -32,8 +33,20 @@ function App(): JSX.Element {
   useEffect(() => {
     getFCMToken()
 
+    // const myTokenReceivedHandler = () => {
+    //   // Do something with the received token
+    // };
+    
+    Notifications.Push.onTokenReceived((token)=>{
+      console.log(token,'Token')
+    });
+    
+    // listener.remove(); // Remember to remove the listener when it is no longer needed
+
   }, [])
 
+
+  
   return (
     <View style={styles.backgroundStyle}>
       <Text style={{ color: "black", fontWeight:'900', }}> Notification Alert project</Text>

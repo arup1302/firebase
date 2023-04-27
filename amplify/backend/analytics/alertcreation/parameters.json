@@ -1,0 +1,21 @@
+{
+    "appName": "alertcreation",
+    "roleName": "pinpointLambdaRole387d079b",
+    "cloudformationPolicyName": "cloudformationPolicy387d079b",
+    "cloudWatchPolicyName": "cloudWatchPolicy387d079b",
+    "pinpointPolicyName": "pinpointPolicy387d079b",
+    "authPolicyName": "pinpoint_amplify_387d079b",
+    "unauthPolicyName": "pinpoint_amplify_387d079b",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

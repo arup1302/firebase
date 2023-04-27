@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "alertcreation_identitypool_c7979f32",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "alertcreation",
+    "sharedId": "c7979f32",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}

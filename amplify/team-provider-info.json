@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-alertcreation-dev-151043-authRole",
+      "UnauthRoleArn": "arn:aws:iam::865277048897:role/amplify-alertcreation-dev-151043-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::865277048897:role/amplify-alertcreation-dev-151043-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-alertcreation-dev-151043-deployment",
+      "UnauthRoleName": "amplify-alertcreation-dev-151043-unauthRole",
+      "StackName": "amplify-alertcreation-dev-151043",
+      "StackId": "arn:aws:cloudformation:us-east-1:865277048897:stack/amplify-alertcreation-dev-151043/973b9de0-e4df-11ed-b852-0ede2622022f",
+      "AmplifyAppId": "d2nfbrbb03wey8"
+    },
+    "categories": {
+      "auth": {
+        "alertcreation": {}
+      },
+      "analytics": {
+        "alertcreation": {},
+        "Pinpoint": {
+          "Name": "alertcreation-dev",
+          "Id": "d2a9ee588b4b441b814c9da5c6864372",
+          "Region": "us-east-1"
+        }
+      },
+      "notifications": {
+        "Pinpoint": {
+          "Name": "alertcreation-dev",
+          "Id": "d2a9ee588b4b441b814c9da5c6864372",
+          "Region": "us-east-1"
+        }
+      }
+    }
+  }
+}
